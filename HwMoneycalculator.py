@@ -34,9 +34,9 @@ def setupyears():
 
 def calCurrYearMoney(x, y,year):
     for i in range (1,year):
-        i = y / 100
-        i = i + 1
-        x = x * i
+        m = y / 100
+        m = m + 1
+        x = x * m
     return x
 
 def main():
