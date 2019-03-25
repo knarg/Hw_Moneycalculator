@@ -33,7 +33,7 @@ def setupyears():
 
 
 def calCurrYearMoney(x, y,year):
-    for i in range (1,year):
+    for i in range (0,year):
         m = y / 100
         m = m + 1
         x = x * m
